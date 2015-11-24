@@ -1,0 +1,114 @@
+<style type="text/css">
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+		
+			body {
+				background-color: #A3A375;
+				font-family: 'Montserrat', sans-serif;
+			}
+		
+			#wrapper {
+				max-width: 700px;
+				margin: 0px auto;
+				background-color: white;
+				border-radius: 0 0 15px 15px;
+			}
+			
+			nav {
+				margin: auto;
+				text-align: center;
+				
+			}
+			
+			nav p {
+				text-align: center;
+				display: inline-block;
+				margin: 0 1em;
+			}
+			
+			
+			
+			#video {
+				display: block;
+				margin: 0 auto;
+				text-align: center;
+				max-width: 600px;
+				
+				
+			}
+			h2 {
+				font-style: italic;
+				margin: 0 auto 5px auto;
+				text-align: center;
+			}
+			.kanji {
+				display: block;
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;;
+			}
+			
+			img {
+				margin: 5px;
+			}
+			
+			#door {
+				display: inline;
+				font-style: italic;
+			}
+			
+			p {
+				display: inline-block;
+				margin: 10px;
+				padding: 5px;
+			}
+			
+			iframe {
+				border=0;
+			}
+			
+			footer {
+				text-align: center;
+				padding: 2px;
+				margin: auto;
+			}
+			
+			/* displays different color fonts for the different weekdays based on ROYGBIV (color spectrum) */
+			
+			.sunday {
+				color: #FF0000;
+				font-weight: bold;
+			}
+			
+			.monday {
+				color: #FFA500;
+				font-weight: bold;
+			}
+			
+			.tuesday {
+				color: #FFFF00;
+				font-weight: bold;
+			}
+			
+			.wednesday {
+				color: #00FF00;
+				font-weight: bold;
+			}
+			
+			.thursday {
+				color: #0000FF;
+				font-weight: bold;
+			}
+			
+			.friday {
+				color: #4B0082;
+				font-weight: bold;
+			}
+		
+			.saturday {
+				color: #800080;
+				font-weight: bold;
+			}
+		</style>

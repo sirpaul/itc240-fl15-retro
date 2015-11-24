@@ -1,0 +1,19 @@
+#place this in the root of your domain space to replace a generic 404 (file not found)
+#error with your custom 404 page.
+
+#replace example.com with your domain
+
+#the following disallows access to our file (for security)
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+#the following redirects users to a custom 404 error page instead of a generic browser warning
+ErrorDocument 404 http://mychaldeanfamily.com/error-404.php
+
+
+#Below we have an index page in a sub-folder named 'old' and another in a sub-folder named 'new'
+#When you point the browser to the old page, it should automatically redirect you to the new page
+
+Redirect 301 /old.php http://mychaldeanfamily.com/new.php
